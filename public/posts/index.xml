@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Don&#39;t Panic!</title>
+        <link>https://blog.mrkz.mx/posts/</link>
+        <description>Recent content in Posts on Don&#39;t Panic!</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>es-mx</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC-SA 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 03 Oct 2021 15:20:51 -0500</lastBuildDate>
+        <atom:link href="https://blog.mrkz.mx/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Hola mundo</title>
+            <link>https://blog.mrkz.mx/posts/2021/10/hola-mundo/</link>
+            <pubDate>Sun, 03 Oct 2021 15:20:51 -0500</pubDate>
+            
+            <guid>https://blog.mrkz.mx/posts/2021/10/hola-mundo/</guid>
+            <description>Primera entrada al sitio, ¡Bienvenido!</description>
+            <content type="html"><![CDATA[<p>Primera entrada al sitio, ¡Bienvenido!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

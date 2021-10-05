@@ -1,0 +1,168 @@
+baseURL = "https://blog.mrkz.mx"
+title   = "Don't Panic!"
+defaultContentLanguage = 'es'
+languageCode = "es-mx"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10
+copyright = "Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional."
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = false
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = true
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Marcos Simental"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "2 Jan, 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  description = "Un blog personal"
+  keywords = ""
+  images = [""]
+
+  # Home subtitle of the index page.
+  homeSubtitle = "Marcos Simental"
+
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Theme toggle
+  enableThemeToggle = true
+
+  # Sharing buttons
+  enableSharingButtons = false
+
+  # Global language menu
+  enableGlobalLanguageMenu = true
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #customCSS = []
+  #customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false
+
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
+  [params.footer]
+    trademark = false
+    rss = false
+    copyright = true
+    author = false
+
+    topText = []
+    bottomText = []
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    #logoMark     = ">"
+    logoText     = "blog.mrkz.mx"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    logoCursorDisabled = true
+    # Set to a valid CSS color to change the cursor in the logo.
+    #logoCursorColor    = "#A6E22E"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    #logoCursorAnimate  = "0s"
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  # [params.portrait]
+  #   path     = "/img/image.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
+
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://mstdn.mx/@mrkz"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/mrkz"
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    subtitle  = "blog.mrkz.mx"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+
+    [languages.es.menu]
+    [[languages.es.menu.main]]
+    weight=1
+    identifier = "posts"
+    name       = "Entradas"
+    url        = "posts/"
+    [[languages.es.menu.main]]
+    weight=2
+    identifier = "about"
+    name       = "Acerca de"
+    url        = "about/"
+
+
+
+  [languages.en]
+    subtitle  = "blog.mrkz.mx"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+
+    [languages.en.menu]
+    [[languages.en.menu.main]]
+    weight=1
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+    [[languages.en.menu.main]]
+    weight=2
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
